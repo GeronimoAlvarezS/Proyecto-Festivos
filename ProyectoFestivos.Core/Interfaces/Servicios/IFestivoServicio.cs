@@ -1,6 +1,7 @@
 ﻿using ProyectoFestivos.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace Festivos.Core.Interfaces.Servicio
         Task<Festivo> Agregar(Festivo festivo);
         Task<Festivo> Modificar(Festivo festivo);
         Task<bool> Eliminar(int id);
+        Task<bool> VerificacionFestivo(DateTime fecha);
     }
 }
 
