@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoFestivos.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef443a5b9a002eaebbf628c560cca180af4a549e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f46bc59a3068afd861c312c58051900c9867e9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoFestivos.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoFestivos.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
