@@ -9,7 +9,6 @@ namespace Festivos.Core.Interfaces.Servicio
 {
     public interface ITipoServicio
     {
-
         Task<IEnumerable<Tipo>> ObtenerTodos();
         Task<Tipo> ObtenerPorId(int id);
         Task<Tipo> Agregar(Tipo tipo);

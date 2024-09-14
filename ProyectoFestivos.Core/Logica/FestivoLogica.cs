@@ -46,6 +46,7 @@ namespace ProyectoFestivos.Core.Logica
         public async Task<bool> VerificacionFestivo(DateTime fecha)
         {
             var festivos = await _festivoRepositorio.ObtenerTodos();
+
             return festivos.Any(f => f.Dia == fecha.Day && f.Mes == fecha.Month);
         }
     }
