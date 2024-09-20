@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Repositorio\\ProyectoFestivos.Infraestructura.Repositorio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Core\\ProyectoFestivos.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Core\\ProyectoFestivos.Core.csproj",
+        "projectName": "ProyectoFestivos.Core",
+        "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Core\\ProyectoFestivos.Core.csproj",
+        "packagesPath": "C:\\Users\\geron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
+        "projectName": "ProyectoFestivos.Dominio",
+        "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
+        "packagesPath": "C:\\Users\\geron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj",
+        "projectName": "ProyectoFestivos.Infraestructura.Persistencia",
+        "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\geron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Repositorio\\ProyectoFestivos.Infraestructura.Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Repositorio\\ProyectoFestivos.Infraestructura.Repositorio.csproj",
+        "projectName": "ProyectoFestivos.Infraestructura.Repositorio",
+        "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Repositorio\\ProyectoFestivos.Infraestructura.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\geron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Repositorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Core\\ProyectoFestivos.Core.csproj": {
+                "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Core\\ProyectoFestivos.Core.csproj"
+              },
+              "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+              },
+              "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\geron\\source\\repos\\Proyecto_Festivos\\ProyectoFestivos.Infraestructura.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

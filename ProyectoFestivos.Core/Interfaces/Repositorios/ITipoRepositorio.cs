@@ -10,7 +10,7 @@ namespace Festivos.Core.Interfaces.Repositorios
     public interface ITipoRepositorio
     {
         Task<IEnumerable<Tipo>> ObtenerTodos();
-        Task<Tipo> ObtenerPorId(int id);
+        Task<IEnumerable<Tipo>> BuscarPorNombre(string nombre);
         Task<Tipo> Agregar(Tipo tipo);
         Task<Tipo> Modificar(Tipo tipo);
         Task<bool> Eliminar(int id);
