@@ -23,6 +23,12 @@ namespace ProyectoFestivos.Infraestructura.Persistencia.Contexto
                 tipo.HasKey(f => f.Id);
                 tipo.HasIndex(s => s.Nombre).IsUnique();
             });
+
+            modelBuilder.Entity<Festivo>()
+                .HasOne(c => c.Tipo)
+                .WithMany()
+                .HasForeignKey(c => c.IdTipo);
+                
         }
     }
 }
