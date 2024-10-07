@@ -1,0 +1,12 @@
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\bin\Debug\net8.0\ProyectoFestivos.Dominio.deps.json
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\bin\Debug\net8.0\ProyectoFestivos.Dominio.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\bin\Debug\net8.0\ProyectoFestivos.Dominio.pdb
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.AssemblyInfoInputs.cache
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.AssemblyInfo.cs
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.sourcelink.json
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\refint\ProyectoFestivos.Dominio.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ProyectoFestivos.Dominio.pdb
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Dominio\obj\Debug\net8.0\ref\ProyectoFestivos.Dominio.dll

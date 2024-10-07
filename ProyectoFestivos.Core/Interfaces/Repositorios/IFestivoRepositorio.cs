@@ -10,10 +10,11 @@ namespace Festivos.Core.Interfaces.Repositorios
     public interface IFestivoRepositorio
     {
         Task<IEnumerable<Festivo>> ObtenerTodos();
-        Task<IEnumerable<Festivo>> BuscarPorNombre(string nombre);
+        Task<IEnumerable<Festivo>> Obtener(string nombre);
         Task<Festivo> Agregar(Festivo festivo);
         Task<Festivo> Modificar(Festivo festivo);
         Task<bool> Eliminar(int id);
+        Task<IEnumerable<Festivo>> Buscar(int IndiceDato, String Dato);
     }
 }
 

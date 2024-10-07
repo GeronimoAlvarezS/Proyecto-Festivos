@@ -25,7 +25,7 @@ namespace ProyectoFestivos.Dominio.Entidades
 
         [Column("DiasPascua")]
         public int DiasPascua { get; set; }
-        public Tipo Tipo { get; set; }
+        public Tipo? Tipo { get; set; }
         public int IdTipo { get; set; }
     }
 }

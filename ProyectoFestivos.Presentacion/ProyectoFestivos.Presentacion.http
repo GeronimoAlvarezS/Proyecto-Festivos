@@ -1,0 +1,6 @@
+@ProyectoFestivos.Presentacion_HostAddress = http://localhost:5196
+
+GET {{ProyectoFestivos.Presentacion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

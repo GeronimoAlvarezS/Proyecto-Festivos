@@ -20,9 +20,10 @@ namespace ProyectoFestivos.Infraestructura.Repositorio
             return Festivo;
         }
 
-        public async Task<IEnumerable<Festivo>>BuscarPorNombre(string Dato)
+        public async Task<IEnumerable<Festivo>>Obtener(string Dato)
         {
             return await context.Festivos
+                                            .Include(f=>f.Tipo)
                                             .Where(item => (item.Nombre.Contains(Dato)))
                                             .ToListAsync();
         }
@@ -60,7 +61,26 @@ namespace ProyectoFestivos.Infraestructura.Repositorio
 
         public async Task<IEnumerable<Festivo>> ObtenerTodos()
         {
-            return await context.Festivos.ToArrayAsync();
+            return await context.Festivos
+                .Include(f => f.Tipo)
+                .ToArrayAsync();
         }
+        public async Task<IEnumerable<Festivo>> Buscar(int IndiceDato, string Dato)
+        {
+
+            int.TryParse(Dato, out int intValue);
+
+            return await context.Festivos
+                .Include(f => f.Tipo) 
+                .Where(item =>
+                    (IndiceDato == 0 && item.Nombre.Contains(Dato)) ||
+                    (IndiceDato == 1 && item.Dia == intValue) || 
+                    (IndiceDato == 2 && item.Mes == intValue)) 
+                .ToListAsync();
+        }
+
+
+
+
     }
 }

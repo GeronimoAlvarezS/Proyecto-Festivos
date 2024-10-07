@@ -1,0 +1,16 @@
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\bin\Debug\net8.0\ProyectoFestivos.Core.deps.json
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\bin\Debug\net8.0\ProyectoFestivos.Core.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\bin\Debug\net8.0\ProyectoFestivos.Core.pdb
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\bin\Debug\net8.0\ProyectoFestivos.Dominio.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\bin\Debug\net8.0\ProyectoFestivos.Dominio.pdb
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.csproj.AssemblyReference.cache
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.AssemblyInfoInputs.cache
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.AssemblyInfo.cs
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.csproj.CoreCompileInputs.cache
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.sourcelink.json
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\Proyecto.98B514F4.Up2Date
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\refint\ProyectoFestivos.Core.dll
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ProyectoFestivos.Core.pdb
+C:\Users\geron\source\repos\Proyecto_Festivos\ProyectoFestivos.Core\obj\Debug\net8.0\ref\ProyectoFestivos.Core.dll

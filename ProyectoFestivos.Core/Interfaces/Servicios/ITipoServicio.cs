@@ -10,10 +10,10 @@ namespace Festivos.Core.Interfaces.Servicio
     public interface ITipoServicio
     {
         Task<IEnumerable<Tipo>> ObtenerTodos();
-        Task<Tipo> ObtenerPorId(int id);
+        Task<string> Obtener(string nombre);
         Task<Tipo> Agregar(Tipo tipo);
         Task<Tipo> Modificar(Tipo tipo);
         Task<bool> Eliminar(int id);
-        Task<bool> VerificacionTipoFestivo(DateTime fecha);
+        Task<IEnumerable<Tipo>> Buscar(int IndiceDato, String Dato);
     }
 }

@@ -20,11 +20,10 @@ namespace ProyectoTipos.Infraestructura.Repositorio
             return Tipo;
         }
 
-        public async Task<IEnumerable<Tipo>> BuscarPorNombre(string Dato)
+        public async Task<string> Obtener(string nombre)
         {
-            return await context.Tipos
-                                            .Where(item => (item.Nombre.Contains(Dato)))
-                                            .ToListAsync();
+            var tipo = await context.Tipos.FirstOrDefaultAsync(t => t.Nombre == nombre);
+            return tipo?.Nombre;
         }
 
         public async Task<bool> Eliminar(int Id)
@@ -62,5 +61,12 @@ namespace ProyectoTipos.Infraestructura.Repositorio
         {
             return await context.Tipos.ToArrayAsync();
         }
+        public async Task<IEnumerable<Tipo>> Buscar(int IndiceDato, string Dato)
+        {
+            return await context.Tipos
+                .Where(item => (IndiceDato == 0 && item.Nombre.Contains(Dato)) ||
+                               (IndiceDato == 1 && item.Id == int.Parse(Dato)))
+                .ToListAsync();
+        } 
     }
 }
